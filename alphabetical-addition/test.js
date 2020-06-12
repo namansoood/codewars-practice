@@ -1,6 +1,6 @@
-addLetters('a', 'b', 'c') = 'f'
-addLetters('a', 'b') = 'c'
-addLetters('z') = 'z'
-addLetters('z', 'a') = 'a'
-addLetters('y', 'c', 'b') = 'd' // notice the letters overflowing
-addLetters() = 'z'
+addLetters('a', 'b', 'c') // should return 'f'
+addLetters('a', 'b') // should return 'c'
+addLetters('z') // should return 'z'
+addLetters('z', 'a') // should return 'a'
+addLetters('y', 'c', 'b') // should return 'd'
+addLetters() // should return 'z'
